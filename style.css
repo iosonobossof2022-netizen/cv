@@ -3,10 +3,24 @@ body {
   background-color: #f9f9f9;
   color: #333;
   padding: 20px;
+  margin: 0;
 }
 
-h1, h2, h3 {
+header {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #005fa3;
+}
+
+h1 {
+  font-size: 2.5em;
   color: #005fa3;
+  margin-bottom: 0;
+}
+
+h2, h3 {
+  color: #005fa3;
+  margin-top: 30px;
 }
 
 section {
@@ -17,8 +31,13 @@ section {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+ul {
+  padding-left: 20px;
+}
+
 .language {
   margin-bottom: 20px;
+  max-width: 50%;
 }
 
 .streepjes {
@@ -28,7 +47,7 @@ section {
 }
 
 .streep {
-  width: 20px;
+  flex: 1;
   height: 10px;
   background-color: #ddd;
   border-radius: 3px;
